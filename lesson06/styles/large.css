@@ -1,0 +1,57 @@
+@media only screen and (min-width:64rem) {
+    nav ul li a{
+        padding: .5rem 1rem;
+    }
+
+    .log_nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1D5C63;
+    }
+
+    nav{
+        background-color:#1D5C63;
+    }
+    nav ul li a{
+        border: none;
+        font-size: 24px;
+    }
+    nav ul#primaryNav{
+        border: none;
+    }
+
+    footer{
+        font-size: 1.4rem;
+    }
+    .footer_data{
+        flex-direction: row;
+        justify-content: space-around
+    }
+    
+    .logo{
+        width: 10rem;
+        height: 7rem;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 0;
+    }
+
+    .card_text{
+        grid-column: 1 / span 3;
+        width: 98%;
+    }
+    .parent{
+        grid-template-columns: auto auto auto;
+      }
+
+      label, textarea, select{
+        width: 450px;
+      }
+      .form form input, .form textarea,select {
+        width: 450px;
+      }
+}

@@ -1,0 +1,402 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav button{
+    margin:.2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+}
+
+.logo{
+    width: 5rem;
+    height: 3.5rem;
+    padding-right: 1rem;
+}
+.heading_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headings h1, h2{
+    font-size: 25px;
+    margin: 3px;
+    color:white;
+}
+.parent{
+    display: grid;
+}
+.headings h2{
+    font-size: 15px;
+    margin: 3px;
+    color: white;
+}
+
+header{
+    background-color: #1D5C63;
+}
+
+nav{
+    background-color: rgb(38, 67, 67);
+    margin-top: 0;
+}
+
+.date{
+    margin: 1rem;
+    text-align: center;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    border-top:1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul { display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1){display: block;}
+#hamburgerBtn span:nth-child(2){display: none;}
+
+
+#hamburgerBtn.open span:nth-child(1){display: none;}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+.date {
+	margin: 0.5rem;
+    margin-bottom: 0;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: rgb(70, 105, 102);
+    color: black;
+    border: none;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.top{
+    display: none;
+}
+
+h3.wlcm{
+    position: absolute;
+    top: 13rem;
+    color: #FCFFB2;
+    font-size: 4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.bunner_imag{
+    position: relative;
+    width: 100%;
+    height: 15rem;
+}
+
+
+.top_text{
+    background-color: yellow;
+    padding: 15px 0px;
+    color:orange;
+    font-size:20px;
+}
+
+footer{
+    background-color: rgb(70, 105, 102);
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer_data{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+footer.sub_footer{
+    background-color: #1D5C63;
+    
+}
+.bottom p{
+    font-size: 13px;
+    text-align: center;
+}
+
+p#two{
+    margin-bottom: 0;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgb(63, 64, 65);
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #1D5C63;
+    margin: 1rem;
+}
+
+.description{
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.more{
+    background-color:#FA7070;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+
+h4{
+    color: #FCFFB2;
+}
+
+.view{
+    color: lightgray;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card_text{
+    display: none;
+}
+
+.par{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.temperature,
+.chillWind,
+.wind{
+    color: white;
+    font-weight: 500;
+    margin: 1px;
+    font-style: italic;
+}
+.seen{
+    display: block;
+}
+
+.seen h2{
+    color: yellow;
+}
+.seen p{
+    color: white;
+}
+
+
+  
+.form h1 {
+    display: block;
+    text-align: center;
+}
+
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.form_main{
+    background-color: #749F82;
+}
+
+.form_main h1{
+    margin: 0;
+    padding: 0;
+}
+
+.form form input, .form textarea,select {
+    font-size: 1em;
+    width: 380px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #e0f9d9;
+   border :none;
+}
+label, textarea, select{
+    display: inline-block;
+    clear: left;
+    text-align: left;
+    color: black;
+}
+
+
+.form textarea {
+    height: 250px;
+}
+
+.form form label {
+    font-weight: 700;
+    text-align: left;
+    margin: 5px;
+}
+
+
+.form #submit {
+    background-color: #14213d;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    z-index: 5;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.form #submit:hover {
+    background-color:orangered;
+}
+p.normal::selection {
+	background: #cc0000;
+	color: #fff;
+}
+
+.join_us{
+    color: black;
+    text-align: center;
+}
+  
+  /* directory page*/
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.logoSection {
+  margin: 0.5rem;
+  padding: 0.35rem;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.logoSection > p {
+  min-height: 20px;
+  color: #1D5C63;
+}
+
+.link{
+    text-decoration: none;
+    color: #1D5C63;
+}
+
+.logoImage {
+  width: auto;
+  max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+}
+
+.board {
+    padding: 10px;
+}
+
+.board img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.contactForm > label> input{
+   background-color: rgb(223, 217, 217);
+}
+
+.contactForm > label> textarea{
+    background-color: rgb(223, 217, 217);
+ }
+
+ .weather{
+    color:rgb(0, 153, 255);
+    text-align: left;
+    padding: 2px;
+    font-size: 18px;
+ }
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .contact_us{
+    width: 380px;
+    height: 200px;
+ }
+
+

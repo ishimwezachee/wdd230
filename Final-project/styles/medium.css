@@ -1,0 +1,30 @@
+@media only screen and (min-width : 500px) and (max-width : 900px) {
+.fruits_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.card{
+    margin: 1rem
+}
+.weather{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(204, 204, 204);
+    color: rgb(65, 97, 113);
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin:3rem auto;
+    padding: 5rem 1rem;
+    text-align: left;
+    padding: 8px;
+ }
+ td,th{
+    border:1px solid rgb(255, 255, 255);
+ }
+
+ 
+
+}
+

@@ -1,0 +1,67 @@
+@media only screen and  (min-width:35rem){
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+
+    footer{
+        font-size: 1.2rem;
+    }
+    
+    .logo{
+        width: 8rem;
+        height: 5rem;
+    } 
+
+    .footer_data{
+        flex-direction: row;
+        justify-content: space-around
+    }
+
+    .card_text{
+        display: block;
+    }
+
+  .cards{
+   display: grid;
+  }
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    width: 97%;
+  }
+
+  .card_text{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    width: 95%;
+  }
+
+  .card_btn {
+    background-color:#FCE700;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+  .card_image{
+    width: 80%;
+    height: 250px;
+  }
+}

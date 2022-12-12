@@ -1,0 +1,160 @@
+
+
+@media only screen and (min-width: 900px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+    a{
+        text-decoration: none;
+    }
+
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+    
+    h1{
+        color: white;
+        display: block;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    header{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a h1:hover{
+        text-decoration: none;
+    }
+
+    .wlcm{
+        top:34%;
+        left:35%; 
+    }
+    .about{
+        top:30%;
+        left:35%; 
+    }
+    
+    #contact{
+        outline: none;
+        background-color: #82b440;
+        color: white;
+        font-weight: 600;
+        padding: 15px 20px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .fruits_info{
+        text-align: center;
+        font-size: 27px;
+        line-height: 1.5;
+        color: gray;
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+
+    .card{
+        max-width: 500px;
+        margin: 1rem
+    }
+
+    .fruits_cards{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: auto;
+    }
+    .footer_data{
+        display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+    }
+
+    tr,td,th{
+        border: 3px solid rgb(111, 149, 157);
+        padding: 1rem;
+        border-radius: 20px;
+        width: 80%;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 50%;
+        border: 1px solid #ddd;
+      }
+      .weather{
+        display: flex;
+        justify-content: space-around;
+        border:1px solid white;
+        background-color: rgb(204, 204, 204);
+        color: rgb(65, 97, 113);
+        border-radius: 10px;
+        text-align: center;
+        width: 80%;
+        margin:3rem auto;
+        padding: 5rem 1rem;
+        text-align: left;
+        padding: 8px;
+      }
+      #fname,#email,#phone,#insturctions,#mySelect,#two,#desc,#three{
+        width: 600px;
+       height: 80px; 
+       padding: 0 5px;
+       font-size: 15px;
+       font-weight: 500;
+    }
+
+    #f_name,#e_mail,#p_hone,#f_ruit,#f_ruit2,#f_ruit3,#instruction,#order_date{
+        width: 600px;
+       height: 50px; 
+       padding: 0 5px;
+       font-size: 15px;
+       font-weight: 500;
+       margin: 20px;
+       text-align: center;
+    }
+    
+    .checkoutData{
+        width: 50%;
+        margin: auto;
+    }
+
+    .nutirions{
+        border-radius: 20px;
+        color: black;       
+        background-color: #82b440;
+        margin: 20px;
+        font-size: 20px;
+        font-style: italic;
+        padding: 20px;
+        width: 50%; 
+    }
+
+    span{
+        color: white;
+    }
+       
+    .aboutContent{
+        width: 40%;
+        margin: 4rem auto;
+        font-style: oblique;
+        font-size: 16px;
+        line-height: 1.6;
+        background-color: azure;
+        border:double;
+        padding: 13px;
+        
+    }
+    
+
+}

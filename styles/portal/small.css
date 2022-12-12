@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Mitr&family=Open+Sans:wght@300&family=Signika+Negative:wght@300&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&family=Mitr&family=Open+Sans:wght@300&family=Signika+Negative:wght@300&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@200&family=Lato:wght@100&family=Mitr&family=Open+Sans:wght@300&family=Signika+Negative:wght@300&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header,
+main,
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    background-color:#1D5C63;
+    align-items: center;
+    width: 60%;
+    border-radius: 20px;
+    color: white;
+    -webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.profile{
+    margin: 20px 1rem 20px 20px;
+    box-shadow: 0px 0px 2px 2px rgb(65, 64, 64);
+    border-radius: 10px;
+}
+
+.top h1{
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: 15px;
+    font-weight: 900;
+}
+
+.middle{
+  width:50%;
+  text-align: left;
+}
+
+.middle h2{
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: 10px;
+    color: rgb(46, 39, 39);
+    font-size: 20px;
+    margin:10px;
+    border-bottom: 1px solid rgb(74, 73, 73);
+}
+
+
+.list{
+    font-family: sans-serif
+}
+
+.list li{
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.middle p{
+    border-top: 1px solid rgb(74, 73, 73);
+    font-style: italic;
+    padding-top: 5px;
+}
+
+
+.bottom{
+    width: 50%;
+    background-color: #1D5C63;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bottom #one{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.bottom #two{
+    font-size: 1rem;
+    color: white;
+}
+

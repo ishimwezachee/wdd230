@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/normalize.css">
+        <link rel="stylesheet" href="./styles/small.css">
+        <link rel="stylesheet" href="./styles/medium.css">
+        <link rel="stylesheet" href="./styles/large.css">
+        <title>Fresh Fruits</title>
+    </head>
+<body>
+    <header>
+        <a href="./index.html">
+            <h1>Fresh Fruit</h1>
+          </a>
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu" href="#"></a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./fresh.html">Fresh</a></li>
+                <li><a href="./about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<main class="form_main">
+    <div class="form">
+        <h2 class="join_us">Join Us</h2>
+        <form class="form"  onsubmit="save();return false" method="get">
+            <label for="fname">
+                First Name: <br>
+                <input type="text" id="fname" name="fname">
+            </label>
+
+            <label for="email">
+                Email: <br>
+                 <input type="email" placeholder="zacheeishimwe@gmail.com" id="email" name="email">
+            </label>
+
+            <label for="phone">
+                Phone:<br>
+                <input type="tel" id="phone" name="phone" >
+            </label>
+
+            <div for="member">
+             Availlable Fruits:<br>
+                <div id="myParent"></div>
+            </div>
+
+            <label for="desc">
+                 Instructions:(Optional)<br>
+                <textarea name="desc" id="desc"></textarea>
+            </label>
+            <input type="submit" id="submit" value="submit">
+        </form>
+      
+    </div>
+    <div class="checkoutData">
+        <!--first name, email, phone, three selected fruits, and special instructions-->
+        <label for="f_name">
+            First Name: <br>
+            <input type="text" id="f_name" name="fname"  >
+        </label>
+       <br>
+        <label for="e_mail">
+            Email: <br>
+             <input type="email" value ="email" id="e_mail" name="email" >
+        </label>
+        <br>
+        <label for="p_hone">
+            Phone:<br>
+            <input type="tel" value="phone number" id="p_hone" name="phone" >
+        </label>
+        <br>
+        <label for="f_ruit">
+            First fruit:<br>
+            <input type="tel" value="apple" id="f_ruit" name="phone" >
+        </label>
+        <br>
+        <label for="f_ruit2">
+            Second fruit:<br>
+            <input type="tel" value="pineapple" id="f_ruit2" name="phone" >
+        </label>
+        <br>
+        <label for="f_ruit3">
+            Third fruit:<br>
+            <input type="tel" value="avocado" id="f_ruit3" name="phone" >
+        </label>
+        <br>
+        <label for="instruction">
+            Special instructin :<br>
+            <input type="tel" value="Instructions" id="instruction" name="phone" >
+        </label>
+        <br>
+        <label for="order_date">
+            Order Date :<br>
+            <input type="text" value="date" id="order_date" name="date" >
+        </label>
+       <div class="nutirions">
+        <p>Total carbohydrates:<span id="carb">30</span></p>
+        <p>Total protein:<span id="prot"></span></p>
+        <p>Total fat:<span id="fat"></span></p>
+        <p>Total sugar:<span id="sug"></span></p>
+        <p>Total calories:<span id="cal"></span></p>
+       </div>
+    </div>
+</main>
+<footer>
+    <div class="footer_data">
+        <div class="imageicon">
+            <!-- <img class="logo" src="./images/logo.png" alt="logo"> -->
+            <h2>Fresh Fruits</h2>
+            <div class="social_icons"></div>
+            <i class="icon-youtube-play"></i> 
+            <i class="icon-instagram"></i> 
+            <i class="icon-facebook"></i> 
+            <i class="icon-linkedin"></i> 
+        </div>
+        <div class="location">
+            <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255203.60499295776!2d29.98715747262363!3d-1.9294216809201632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed8e797%3A0xf32b36a5411d0bc8!2sKigali!5e0!3m2!1sen!2srw!4v1669286957870!5m2!1sen!2srw" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+        </div>
+        <div class="contact">
+            <p>info@gmail.com</p>
+            <p>+255858585858</p>
+            <p>Kigali Fruits</p>
+        </div>
+    </div>
+    <hr>
+    <div class="sub_footer">
+        <div class="bottom">
+            <p id="one"></p>
+            <p id="twoLine"></p>
+        </div>
+    </div>
+</footer>
+
+<script src="./scripts/navigation.js"></script>
+<script src="./scripts/weather.js"></script>
+<script src="scripts/index.js"></script>
+<script src="scripts/fruits.js"></script>
+</body>
+</html>

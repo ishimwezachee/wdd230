@@ -1,0 +1,17 @@
+@media (min-width: 32.5em) {
+    main{
+        grid-template-columns: auto auto;
+    } 
+}
+
+
+@media (min-width: 1000px) {
+    main{
+        grid-template-columns: auto auto auto;
+    } 
+    section{
+        width: 85%;
+    }
+    
+}
+

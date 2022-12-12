@@ -1,0 +1,95 @@
+{
+    "data":[
+        {
+        "name":"MTN",
+        "logo":"https://1000logos.net/wp-content/uploads/2022/08/MTN-Logo.png",
+        "address":"125 Main Street, kigali Rwanda ",
+        "phone":2507746464373,
+        "email":"mtn@gmail.com",
+        "website":"https://www.mtn.co.rw/",
+        "level":"Gold ",
+        "descripton":"MTN Rwanda, whose complete name is MTN Rwandacell Plc, is the largest telecommunications company in Rwanda, with an estimated 6.4 million subscribers, accounting for 62.8 percent market share, as of 31 September 2021"
+    },
+    
+    {
+    "name":"SONATEL",
+    "logo":"https://upload.wikimedia.org/wikipedia/commons/1/1d/LOGO_SONATEL_HD_FB.JPG",
+    "address":"125 Main Street, kigali Tanzania",
+    "phone":25077233464373,
+    "email":"sonatel@gmai.com",
+    "website":"https://sonatel.sn/",
+    "level":"Silver",
+    "descripton":"Sonatel is the principal telecommunications provider of Senegal. The company is active in fixed line telephony, mobile telephony, internet service, television and corporate telecommunications."
+    },
+    
+    {
+    "name":"Santam",
+    "logo":"https://www.duepoint.net/wp-content/uploads/2021/09/Santam-1-e1637588555875.gif",
+    "address":"125 Main Street, kigali Ugana",
+    "phone":2507746464000,
+    "email":"santam@gmail.com",
+    "website":"https://www.santam.co.za/",
+    "level":"Gold ",
+    "descripton":" African financial services group that also has business interests in Malawi, Tanzania, Uganda, Zimbabwe and Zambia. Santam's head office is located in Bellville in the Western Cape,"
+    },
+    {
+    "name":"Telkom",
+    "logo":"https://seeklogo.com/images/L/liquid-telecom-logo-6288B013EA-seeklogo.com.png",
+    "address":"125 Main Street, kigali Zimbabwe",
+    "phone":2507746464323,
+    "email":"telcom@gmail.com",
+    "website":"https://rw.liquidhome.tech/",
+    "level":"silver",
+    "descripton":"Telecommunication is the transmission of information by various types of technologies over wire, radio, optical, or other electromagnetic systems."},
+    {
+    "name":"EcoCash",
+    "logo":"https://www.pindula.co.zw/images/5/54/EcoCash.png",
+    "address":"125 Main Street, kigali Rwanda ",
+    "phone":25077426464373,
+    "email":"ecocash@gmil.com",
+    "website":"https://www.ecocash.co.zw/",
+    "level":"Gold ",
+    "descripton":"EcoCash, is a mobile phone-based money transfer, financing and microfinancing service, launched in 2011 by Econet Wireless, for its customers in Zimbabwe. The platform has been targeted "
+    },
+    {
+    "name":"Vivo Energy",
+    "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Vivo_Energy_logo.svg/1280px-Vivo_Energy_logo.svg.png",
+    "address":"125 Main Street, kigali Nageria",
+    "phone":250774698764373,
+    "Email":"vivo@gmail.com",
+    "website":"https://www.vivoenergy.com/en",
+    "level":"Silver",
+    "descripton":"British downstream petroleum company with its headquarters in London. It maintains subsidiaries and operations in 23 countries across Africa that encompass the supply, storage, distribution, and retail of a range of petroleum products"
+    },
+    {
+    "name":"Bank of Africa",
+    "logo":"https://boaweb.of.africa/assets/logo.png",
+    "address":"125 Main Street, kigali Rwanda ",
+    "phone":2507746464373,
+    "email":"bankafrica@gmai.com",
+    "website":"https://www.boarwanda.com//",
+    "level":"Gold ",
+    "descripton":"Bank of Africa is a Moroccan banking conglomerate headquartered in Casablanca, Morocco, with banking operations in Morocco and eighteen other African countries. "
+    },
+    {
+    "dame":"Safaricom",
+    "logo":"https://logos-download.com/wp-content/uploads/2022/01/Safaricom_Logo.png",
+    "address":"125 Main Street, kigali Marroco",
+    "phone":454346464373,
+    "dmail":"safaricom@gmail.com",
+    "website":"https://www.safaricom.co.ke/",
+    "level":"silver",
+    "descripton":"Safaricom PLC is a listed Kenyan mobile network operator headquartered at Safaricom House in Nairobi, Kenya. It is the largest telecommunications provider in Kenya, and one of the most profitable companies in the East and Central Africa region."
+    },
+    {
+    "name":"COMESA",
+    "logo":"https://www.mieux-initiative.eu/images/comesa-flag.gif",
+    "address":"125 Main Street, kigali Kenya",
+    "phone":345307746464373,
+    "email":"exiata@gmail.com",
+    "website":"https://www.comesa.int/",
+    "level":"Gold ",
+    "descripton":"The Common Market for Eastern and Southern Africa is a regional economic community in Africa with twenty-one member states stretching from Tunisia to Eswatini. COMESA was formed in December 1994, replacing a Preferential Trade Area which had existed since 1981."
+    }
+    ]
+}

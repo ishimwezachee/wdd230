@@ -1,0 +1,66 @@
+body{
+    background-color: #acaef1;
+    color: rgb(20, 58, 23);
+    font-family: monospace;
+}
+
+table {
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 100%;
+}
+
+td, th {
+    font: 2em;
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(230, 255, 237);
+}
+
+tbody tr:first-child, #nov {
+    background-color: #8897b9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #D2DAFF;
+}
+
+thead {
+    font-size: 2.5em;
+}
+
+thead, tfoot {
+    background-color: rgb(126, 185, 193);
+}
+
+tfoot {
+    font-size: 0.75em;
+}
+
+table, td, tr, th { 
+    border-collapse: collapse;
+    border: 1px solid rgb(196, 198, 197);
+}
+
+tbody th, tbody td {
+    font-weight: 400;
+}
+
+/*Meduim devices */
+@media only screen and  (min-width:35rem){
+    table{
+        margin: 100px auto; 
+        width: 80%;
+    }
+}
+
+
+/*Large devices devices */
+@media only screen and (min-width:64rem) {
+table{
+    margin: 100px auto; 
+    width: 30%;
+}
+}
